@@ -6,6 +6,13 @@ static const float bordercolor[]           = {0.5, 0.5, 0.5, 1.0};
 static const float focuscolor[]            = {1.0, 0.0, 0.0, 1.0};
 /* To conform the xdg-protocol, set the alpha to zero to restore the old behavior */
 static const float fullscreen_bg[]         = {0.1, 0.1, 0.1, 1.0};
+ 
+/* Autostart */
+static const char *const autostart[] = {
+        "wbg", "/usr/share/wallpapers/wal.jpeg", NULL,
+        "someblocks", NULL,
+        NULL /* terminate */
+};
 
 /* tagging - tagcount must be no greater than 31 */
 #define TAGCOUNT (9)
